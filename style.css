@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: roboto, sans-serif;
+  background-color: ghostwhite;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+@media (max-width: 520px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
+
+main {
+  width: 90%;
+  margin: 1rem auto;
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 1rem;
+  justify-content: center;
+  align-content: center;
+}
+
+section {
+  padding: 1rem;
+  width: 300px;
+  background-color: lightblue;
+}
+
+#companies,
+#users {
+  line-height: 0.75rem;
+}
